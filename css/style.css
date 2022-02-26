@@ -4,10 +4,14 @@ font-family: 'Lobster Two', cursive;
 font-family: 'Poppins', sans-serif;
 font-family: 'Yeseva One', cursive; 
 */
-body{
+*{
     margin: 0;
     padding: 0;
+}
+body{
     font-family: 'Poppins', sans-serif;
+    color: #424242;
+
 }
 
 
@@ -25,9 +29,6 @@ section {
 .flexible{
     display: flex;
 }
-.flexible div {
-    padding-left: 3%;
-}
 .focused-area{
     align-items: center;
 }
@@ -35,8 +36,10 @@ section {
     font-size: 60px;
     font-family: 'Yeseva One', cursive; 
     font-weight: 400;
-    padding-left: 10px;
+    padding-left: 5px;
     border-left: 3px solid #FF5959;
+    padding-left: 3%;
+    margin-bottom: 30px;
 
 }
 .focused-title p {
@@ -65,6 +68,47 @@ section {
 }
 
 .half-width img {
-    width: 100%;
+    width: 85%;
 }
 /* Focused Section Design end */
+
+/* mission area Design Start */
+.mission-area{
+
+}
+.mission-area h1 {
+    font-size: 48px;
+    color: #13103A;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+
+}
+.mission-area span{
+    display: inline;
+}
+
+.One-third-width{
+    width: 33.33%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 25px 20px 45px 20px;
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 26px;
+}
+.One-third-width img {
+    width: 50%;
+}
+.One-third-width h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #000;
+
+}
+#bg-middle {
+    background-color: #f841ef2f;
+    ;
+}
+
+/* mission area Design End */
